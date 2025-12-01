@@ -46,7 +46,7 @@ const [items, setItems] = useState([]);
   const extendedSpecials = [...specials, ...specials, ...specials];
 
   return (
-<div className=" h-[400] md:h-[800] lg flex flex-col items-center justify-center font-sans">
+<div className=" h-[600] md:h-[800] lg flex flex-col items-center justify-center font-sans">
       <style>{`
         @keyframes scroll-mobile {
           0% { transform: translateX(0); }
@@ -131,7 +131,7 @@ const [items, setItems] = useState([]);
         </h1>
         
         {/* Carousel Container */}
-        <div className="w-full mt-30 overflow-hidden carousel-container">
+        <div className="w-full mt-10 overflow-hidden carousel-container">
           <ul className="flex items-center animate-scroll hover:animation-play-state-paused">
             {extendedSpecials.map((item, index) => (
               <li 
