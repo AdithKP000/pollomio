@@ -126,7 +126,7 @@ const [items, setItems] = useState([]);
       
       <div className="w-full h-150 lg:min-h-screen flex flex-col items-center ">
         {/* Title - Responsive */}
-        <h1 className="text-black text-2xl xs:text-3xl font-[montserrat] text-4xl md:text-5xl lg:text-6xl font-[400] mb-2 sm:mb-2 lg:mb-12 text-center tracking-wide mt-20">
+        <h1 className="text-black text-2xl xs:text-3xl font-[montserrat] text-4xl md:text-5xl lg:text-6xl font-[400] mb-5 sm:mb-2 lg:mb-12 text-center tracking-wide mt-20">
           Our Specials
         </h1>
         
